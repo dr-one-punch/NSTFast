@@ -1,0 +1,6 @@
+This is working as streamlit was designed, the code reruns from top to bottom after every action, 
+in that new run it will only have access to the latest action. In your example after pushing button 2 
+it doesn remember pushing button 1 before that.
+
+if use a button inside a button and press the inside button it forgets the external button and hence
+all the program runs again and we are stuck :(
